@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">PlacePicker</string>
-    <string name="YOUR_API_KEY">AIzaSyBquXSgxEhBeijFqghYBndDPD-QFFbqUPs</string>
+    <string name="YOUR_API_KEY">YOUR_GOOGLE_API_KEY</string>
 </resources>
