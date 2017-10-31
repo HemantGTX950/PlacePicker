@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == PLACE_PICKER_REQUEST) {
-
             if (resultCode == RESULT_OK) {
+            //location recieved
                 Place place = PlacePicker.getPlace(data, this);
                 LatLng s = place.getLatLng();
                 String toastMsg = "Lat:" + s.latitude + ",long:" + s.longitude;
